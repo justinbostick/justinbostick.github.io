@@ -1,0 +1,32 @@
+body{background-color:SpringGreen
+; }
+
+h2{font-family:Helvetica ;
+   font-size:20px;   
+   color:green;
+   background-color:rgb(153, 255, 185)
+;
+}
+
+p{font-family:'Open sans', sans-serif;
+  font-size:15px;
+  color:#004d28;
+  line-height:200%;
+}
+
+h1{font-family:arial;
+  font-size:30px;
+  color:green;
+ 
+}
+
+li{font-family:Georgia, sans-serif;
+      font-size:15px;
+        color:rgb(0, 51, 26);
+            line-height:150%;
+}
+
+ol{list-style-type: lower-alpha;}
+
+ul{list-style-type:square;}
+
