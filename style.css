@@ -1,0 +1,135 @@
+/* your theme colors are: emerald-#2ecc71,grass-#27ae60,black-#282830
+*/
+ p, td, option {
+    font-family:'Oxygen', Sans-serif;
+}
+h1, h2, h3, h4, h5, h6, th, a, label, input {
+    font-family:'Fjalla One', sans-serif;
+}
+body {
+    margin:0;
+}
+.header-text {
+    text-align:center;
+    font-size:50px;
+}
+.header {
+    background-image:url(websitephoto.jpg);
+    background-attachment:fixed;
+    margin-left:25%;
+    padding:50px 16px;
+    color:white;
+}
+header {
+    position:relative;
+    text-align:center;
+}
+.contact-me {
+    background-color:#2ecc71;
+    padding:16px;
+    margin:0;
+}
+.portfolio-sect {
+    padding:16px;
+}
+textarea {
+    height:100px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+img.header-img {
+    height:200px;
+    width:100%;
+}
+.mid-image {
+    height:100px;
+    width:50%;
+    border:1px solid #2ecc71;
+    border-radius:4px;
+}
+.mid {
+    background-color:white;
+    padding:16px;
+    margin:10px;
+}
+.body {
+    margin-left:25%;
+}
+.middle {
+    padding:10px;
+    margin:auto;
+    width:100%;
+    color:white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #282830;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    box-shadow:5px 5px 5px #888888;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 30px 16px;
+    text-decoration: none;
+    text-align:center;
+    font-size:25px;
+    border-bottom:1px solid #2ecc71;
+}
+li a.active {
+    background-color: #2ecc71;
+    color: #2c3e50;
+}
+li a:hover:not(.active) {
+    background-color: white;
+    color: #2c3e50;
+}
+.title {
+    top:50px;
+    font-size:40px;
+    text-align:center;
+}
+.center {
+    text-align:center;
+}
+.right {
+    text-align:right;
+}
+.left {
+    text-align:left;
+}
+.mid-paragraph {
+    margin:10px;
+    padding:20px
+}
+input, label {
+    padding-bottom:10px;
+}
+.footer {
+    background-color:#282830;
+    padding:16px;
+    margin:auto;
+}
+
+table{border:1px solid black;
+    width:100%;
+    padding:10px;
+    
+}
+
+i{color:white;
+    padding:10px;
+}
+
+tr{border-bottom:1px solid black;}
