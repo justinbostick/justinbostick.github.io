@@ -1,92 +1,106 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
 
     <head>
-        <title>Justin Bostick</title>
-        <link rel="stylesheet" type="text/css" href="Aboutme.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-
-
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     </head>
 
     <body>
+
+
+        <ul>
+            <li><a href="#" class="Home active">Home</a>
+            </li>
+            <li><a href="#" class="about">About Me</a>
+            </li>
+            <li><a href="#" class="contact">Contact Me</a>
+            </li>
+            <li><a href="#" class="portfolio">Portfolio</a>
+            </li>
+        </ul>
         <div class="header">
-             <h1>Justin Bostick</h1>
-            <img src="me.png" alt="Very Handsom Man" />
+
+             <h1 class="header-text ">Justin Bostick</h1> 
+
+
         </div>
 
-        <div class="information">
-             <h2><q> You get what you give</q></h2>
-            <br/>
+        <div class="body">
+            <div class="mid">
 
-            <p>My name is <b>Justin</b> and I grew up in Indianapolis,Indiana. I'm currently 16, going to graduate at 17 and hope to work at <b>Microsoft</b> in the future</p>
-            
-</div>
-                <div class="list">
-                <li class="topics">Job Interests:
+                 <h1 class="right">Who is Justin Bostick?</h1>
+
+                <p class="mid-paragraph">Justin Bostick is a 16 year old ready to get his programming career on a head start; getting college credits early, creating his own oppurtunities, and more. He would like to attend purdue and work for microsft in the near future.</p>
+
+
+            </div>
+
+
+            <div>
+
+                <form class="contact-me" action="mailto">
+                     <h1>Contact Me</h1>
+                    <label>First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
                     <br/>
-                </li>
-                <ol>
-                    <li>Web Designer</li>
+                    <label>Write a message:</label>
+                    <textarea placeholder="your message..."></textarea>
+
+
+
                     <br/>
+                    <input type="submit" value="Submit">
+                </form>
 
-                    <li>Programmer</li>
-                    <br/>
 
-                    <li>Photographer</li>
-                    <br/>
+            </div>
 
-                    <li><a href="http://www.adobe.com/products/photoshop.html" target="_blank">Graphic Designer</a>
-                    </li>
-                </ol>
-                <br>
+            <div class="portfolio-sect">
 
-                <li class="topics">Hobbies:
-                    <br/>
-                </li>
-                <ul>
-                    <li><a href="kyrie.jpeg" target="_blank"> Basketball</a>
-                    </li>
-                    <br/>
+                 <h1 class="center">My Work Coming soon</h1>
+                 
+                <table >
+                    <tbody>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
 
-                    <li>Piano</li>
-                    <br/>
+            </div>
 
-                    <li>Coding</li>
-                    <br/>
+            <div class="footer">
 
-                    <li>Gaming</li>
-                    <br>
-                </ul>
+                 <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                 <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+                <a href="#"> <i class="fa fa-twitter fa-2x"></i>
+                </a>
 
-                <li class="topics">Places I've Traveled:
-                    <br/>
-                </li>
-                <ol>
-                    <li><a href="https://www.gohawaii.com/" target="_blank">Hawaii</a>
-                    </li>
-                    <br/>
-
-                    <li>Puerto Rico</li>
-                    <br/>
-
-                    <li>St.Thomas</li>
-                    <br/>
-
-                    <li>Florida</li>
-                    <br>
-                </ol>
+            </div>
 
 
 
-                <li class="topics">Interesting Facts:
-                    <br/>
-                </li>
-                <ol>
-                    <li>Middle name is Chaise</li>
-                </ol>
-            
+            <!--do not touch this div, its for the body!-->
+
         </div>
     </body>
 
