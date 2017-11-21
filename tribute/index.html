@@ -1,0 +1,124 @@
+<html>
+
+    <head>
+        <meta http-equiv=”content-type” content=”text/html; charset=utf - 8”/>
+        <meta name=”viewport” content+width=devie-width, initial-scale=1”>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+        
+        <script src=”code.js” type="text/javascript" charset=”utf-8”></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Lebron Triubute</title>
+        <script>
+            $(function() {
+                $("#bg-info").click(function() {
+                    $(".bg-content").toggle(1000);
+                });
+            })
+
+             $(function() {
+                $("#accolades").click(function() {
+                    $(".accolade-content").toggle(1000);
+                });
+            })
+
+             $(function() {
+                $("#contribution").click(function() {
+                    $(".contribution-content").toggle(1000);
+                });
+            })
+        </script>
+
+        <style>
+           .bg-content{display:none;}
+            .accolade-content {
+                display:none;
+            }
+            .contribution-content {
+                display:none;
+            }
+            body {
+            }
+            .jumbotron {
+                background-color:#C91F37;
+                color:white
+            }
+            ul {
+                padding:16px;
+            }
+            ul.hover {
+                background-color:none;
+            }
+            .white {
+                background-color:white;
+                width:100%;
+                opacity:80%
+            }
+            .lerbon {
+                background-image:url('lebronpic.jpg');
+                background-repeat:no-repeat;
+                background-size:100%;
+            }
+        </style>
+    </head>
+
+
+    <body>
+
+
+
+        <div class="jumbotron">
+<h1>Lebron Tribute</h1>
+
+        </div>
+        <div class="container white">
+            <ul class=" nav navbar-nav">
+                <li><a href="#" class="" id="bg-info">His Background</a>
+                </li>
+                <li><a href="#" class="" id="accolades">Accolades</a>
+                </li>
+                <li><a href="#" class="" id="contribution">Contribution</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+             <h1 class="">Background info</h1>
+            <div class="bg-content">
+                <p class="bg-info">Lerbon has had many struggles throughout his life. He grew up poor. His mom had him at only 16 years old. His father was an ex-convict. Throughout these struggles his outlet was sports.</p>
+            </div>
+        </div>
+        <div class="container">
+             <h1 class="">Accolades</h1>
+            <div class="accolade-content">
+
+                <p class="accolades">Lerbon is said by many to be the greatest athlete ever. His rookie season, he got rookie of the year. Other accomplishments include:</p>
+                <ul class="list-group">
+                    <li class="list-group-item">3× NBA champion (2012, 2013, 2016)</li>
+                    <li class="list-group-item">3× NBA Finals MVP (2012, 2013, 2016)</li>
+                    <li class="list-group-item">4× NBA Most Valuable Player (2009, 2010, 2012, 2013)</li>
+                    <li class="list-group-item">13× NBA All-Star (2005–2017)</li>
+                    <li class="list-group-item">2× NBA All-Star Game MVP (2006, 2008)</li>
+                    <li class="list-group-item">11× All-NBA First Team (2006, 2008–2017)</li>
+                    <li class="list-group-item">2× All-NBA Second Team (2005, 2007)</li>
+                    <li class="list-group-item">5× NBA All-Defensive First Team (2009–2013)</ul>
+            </div>
+        </div>
+        <div class="container">
+             <h1 class="">Contributions</h1>
+            <div class="contribution-content">
+
+                <p class="contribution">Lebron hgas also done alot for the community. He owns the LJFF(Lebron james family foundation). He also supported 5 other charities and 12 other causes. </p>
+            </div> 
+        </div>
+        <footer class="footer">
+            <div class="container">
+                 <span class="text-muted">Place sticky footer content here.</span>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
