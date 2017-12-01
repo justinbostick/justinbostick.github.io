@@ -132,4 +132,6 @@ i{color:white;
     padding:10px;
 }
 
-tr{border-bottom:1px solid black;}
+tr{border:1px solid black;}
+
+td{b}
