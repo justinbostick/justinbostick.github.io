@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+        <!-- jQuery  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Custom Libraries -->
+        <script src="code.js" type="text/javascript" charset="utf-8"></script>
+        <link href="style.css" rel="stylesheet" type="teedrghjxt/css">
+
+        <title>Shopping cart</title>
+    </head>
+
+    <body>
+        <div class="jumbotron">
+             <h2>Your Cart</h2>
+        </div>
+
+        <div class="middle">
+
+            <!--Titles-->
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Item Name</h3>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Price</h3>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Quantity</h3>
+                </div>
+            </div>
+            <!--Item row-->
+            <div class="row">
+                <div class="col-sm-4">Basic Tee</div>
+                <div class="col-sm-4">$15.99</div>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                         <span class="input-group-addon">#</span>
+                        <input id="msg" type="text" class="form-control q1" name="msg" placeholder="Quantity">
+                    </div>
+                </div>
+            </div>
+            <!--Item row-->
+            <div class="row">
+                <div class="col-sm-4">Distressed Jeans</div>
+                <div class="col-sm-4">$29.99</div>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                         <span class="input-group-addon">#</span>
+                        <input id="msg" type="text" class="form-control q2" name="msg" placeholder="Quantity">
+                    </div>
+                </div>
+            </div>
+            <!--Item row-->
+            <div class="row">
+                <div class="col-sm-4">Windbreaker</div>
+                <div class="col-sm-4">$39.99</div>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                         <span class="input-group-addon">#</span>
+                        <input id="msg" type="text" class="form-control q3" name="msg" placeholder="Quantity">
+                    </div>
+                </div>
+            </div>
+            <!--Item row-->
+            <div class="row">
+                <div class="col-sm-4">Vintage watch</div>
+                <div class="col-sm-4">$99.99</div>
+                <div class="col-sm-4">
+                    <div class="input-group">
+                         <span class="input-group-addon">#</span>
+                        <input id="msg" type="text" class="form-control q4" name="msg" placeholder="Quantity">
+                    </div>
+                </div>
+            </div>
+            <!-- end div for container-->
+        </div>
+        
+        <!--collapse-->
+<button type="button" class="btn btn-warning btn-block checkout container" id="checkout">Checkout</button>
+  <!-- javascript calculations-->
+
+<div class="totals container totals">
+   <div class="row .col-sm-6 totals"> Subtotal:<div class="sub"></div></div>
+   <div class="row .col-sm-6"> Tax:<div class="tax"></div></div>
+    <div class="row .col-sm-6">Total:<div class="total"></div></div>
+</div>
+    </body>
+
+</html>

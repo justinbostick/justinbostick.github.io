@@ -1,0 +1,22 @@
+* {
+    font-family:"Futura-CondensedExtraBold", sans-serif;
+    background-color:#f1c40f;
+    ;
+}
+.jumbotron {
+    background-color:#f1c40f;
+}
+button {
+    text-align:center;
+}
+row {
+    padding:10px;
+}
+.middle {
+    width:100%;
+    padding:10px;
+}
+.totals {
+    
+    width:100%;
+}
