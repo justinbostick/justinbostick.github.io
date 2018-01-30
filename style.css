@@ -128,19 +128,12 @@ input, label {
     margin:auto;
 }
 
-table{border:1px solid black;
-    width:100%;
-    padding:10px;
-    
-}
 
 i{color:white;
     padding:10px;
 }
 
-tr{border:1px solid black;}
-
-td{border:1px solid black;
-
-    height: auto;
-    width: auto;}
+.table-image{
+ position:relative;
+ height:400px;
+ width:100%}
