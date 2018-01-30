@@ -53,6 +53,12 @@ img.header-img {
     border:1px solid #2ecc71;
     border-radius:4px;
 }
+.table-image{
+height:400px;
+ width:100%;
+margin:5px;
+ padding:5px;
+}
 .mid {
     background-color:white;
     padding:16px;
