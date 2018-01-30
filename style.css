@@ -136,4 +136,8 @@ i{color:white;
 .table-image{
  position:relative;
  height:400px;
- width:400px}
+ width:400px;
+padding:5px;
+margin:5px}
+
+td{padding:7px}
