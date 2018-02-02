@@ -19,9 +19,9 @@ ul,li{ list-style-type:none;
     margin:10px;
 }
 .pic {
-    max-width:400px;
+    width:400px;
     position:relative;
-    max-height:400px;
+   height:400px;
 }
 .sidebar,.body,.footer{    font-family:'Julius Sans One', sans-serif;
 }
