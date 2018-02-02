@@ -1,0 +1,27 @@
+
+ul,li{ list-style-type:none;
+}
+.body {    
+    padding:20px;
+    overflow: hidden;
+}
+.title {
+    background-color:#1e272e;
+    color:white;
+    width:100%;
+    padding:25px;
+    font-family:'Monoton', cursive;
+}
+.footer {
+    width:100%
+}
+.btn {
+    margin:10px;
+}
+.pic {
+    width:100%;
+    position:relative;
+    height:400px;
+}
+.sidebar,.body,.footer{    font-family:'Julius Sans One', sans-serif;
+}
